@@ -22,28 +22,123 @@
      * 중간고사: 7주차
      * 기말고사: 15주차
 
-> [**강의계획서**](https://rptbi.jnu.ac.kr/ReportApp/stdhak/reportView.aspx)를 참고하세요 
+> [강의 영상](https://www.youtube.com/playlist?list=PLhbaMvGyp999F4RqSqCoXetq8OcT1IfJW)
 
 -------------
-### Week1-2 오픈소스소프트웨어 개요
-* 이런내용
-* 저런내용
+### Week1-2 오픈소스소프트웨어 개요 [(강의자료)](https://docs.google.com/presentation/d/1HJM_NecZ2YZMin9NEL7-_PbZnj44ahYD/edit#slide=id.p1)
+
+### **1. github octoverse**
+
+* [The state of open source software](https://octoverse.github.com/)
+
+### **2. What is _Open Source Software_?**
+
+> 소프트웨어 저작권 소유자가 모든 사람에게 소스 코드를 **게시, 사용, 복사, 수정 및 배포할 권리**를 부여한 소프트웨어
+* ### **2-1. Commercial SW**
+  * 개별 이용허락
+  * 로열티 지급
+  * 실행 바이너리만 제공
+  * 복제, 배포, 수정 불가
+  * 사용 기간과 목적 제한
+
+* ### **2-2. Open Source SW**
+  * 일괄 사전 이용허락
+  * 로열티 없음
+  * 소스 코드 제공
+  * 복제, 배포, 수정 허용
+  * 기간/목적 제한 없음
+
+### **3. Free Software vs. Open Source Software**
+
+* ### **3-1. Free Software**
+  ![aaaa](https://github.com/user-attachments/assets/978dbbf0-5e0d-4214-8fe6-5bd8545d8c6a)
+  * Richard Stallman – Creator of GNU Project
+  * FSF (Free Software Foundation, 1984~)
+    * GPL 1.0 (1989), GPL 2.0 (1991), GPL 3.0 (2007)
+  * Copyleft  (No SW patent, No DRM)
+
+* ### **3-2. Open Source Software**
+  ![bbbb](https://github.com/user-attachments/assets/b4fa2eb6-2b25-4f61-8201-6448b604f959)
+  * Eric S. Raymond – Author of 'The Cathedral and the Bazzar (성당과 시장)'
+  * OSI (Open Source Initiative, 1998~)
+    * Ambiguity of `free’
+    * Combination of OSS and Closed Source SW
+    * License under law
+
+### **4. Open Source Software Lisence**
+
+> 오픈소스 소프트웨어의 **사용, 복제, 수정, 배포 권한의 범위**를 지정
+
+![cccc](https://github.com/user-attachments/assets/bb557a62-db69-4dff-bab6-eafa1e315f9d)
+
 
 -------------
-### Week2-1 버전 관리 개요
-* 이런내용
-* 저런내용
+### Week2-1 버전 관리 개요 [(강의자료)](https://docs.google.com/presentation/d/1y_XxFORFUVf5NVa40FTFmv9MemetVjBj/edit#slide=id.p1)
+
+### **1. Version Control System (VCS)**
+* Track your files over time so that you can easily get back to a previous working version
+* VCS software
+   * CVS (Concurrent Version System)
+   * SVN (Subversion)
+   * Mercurial
+   * Darcs
+   * Git
+* Repository or Repo (저장소)
+
+### **2. General Actions in VCS**
+* ### **2-1. Checkin**
+  ![image](https://github.com/user-attachments/assets/b40eb8f2-ae78-44aa-a1e2-35ab9a8e533d)
+  * Check in a file and modify it over time
+* ### **2-2. Checkout and editing**
+  ![image](https://github.com/user-attachments/assets/92079481-d0e8-4408-8622-150742122122)
+  * Check out, edit, and check in a file
+* ### **2-3. Diffs**
+  ![image](https://github.com/user-attachments/assets/5644d908-a9b2-499b-be2a-f2e058541858)
+  * The trunk has a history of changes as a file evolves
+* ### **2-4. Branching**
+  ![image](https://github.com/user-attachments/assets/dd9f1bca-01d2-4806-8be1-26464ac99560)
+  * Copy code into a separate folder so we can have a separate history of changes
+* ### **2-5. Merging**
+  ![image](https://github.com/user-attachments/assets/49ade0d9-5f12-4d20-8c76-b7a6ceef570b)
+  * Merge changes from one branch to another
+* ### **2-6. Conflicts**
+  ![image](https://github.com/user-attachments/assets/f8159876-d81e-4a49-a668-e5e327359c24)
+  * When changes overlap like an example below
+* ### **2-7. Tagging**
+  ![image](https://github.com/user-attachments/assets/df38de9d-cca5-4bb5-bb7c-3e29079c7ad8)
+  * Let you tag (label) any revision for easy reference
+
+### **3. Two Main Types of VCS**
+* ### **3-1. Centralized VCS**
+  * One central repository with many users
+     * Ex) CVS, SVN, Darcs
+* ### **3-2. Decentralized (Distributed) VCS**
+  * Every user owns his or her local repository
+  * A separate remote (central) repository
+    * Sometimes, more than one remote (central) repositories
+
+  * Two new actions (with remote repositories): fork pull request
+    * Ex) GIT, Mercurial
+ 
 
 -------------
-### Week2-2 Git
-* 이런내용
-* 저런내용
-
-![Image] (그림.png)
+### Week2-2 Git [(강의자료)](https://docs.google.com/presentation/d/1y_XxFORFUVf5NVa40FTFmv9MemetVjBj/edit#slide=id.p1)
+### **1. Introduction to GIT**
+![image](https://github.com/user-attachments/assets/474b5eca-8033-43cd-8693-3f96cb2a75cb)
+* Linus Torvalds
+   * For collaboration of development of Linux kernel
+* A distributed version control system
+   * Workspace : files you are working with
+   * Index: (staged) files to be considered in the next commit
+   * Local repository : files committed to the local repo
+   * Remote repository : files pushed to the remote repo
+### **2. GIT Workflow**
+![image](https://github.com/user-attachments/assets/cadd69f3-3cb2-4dbf-a0c6-a5bb0b33b9a6)
 
 -------------
-### Week2-3 Github, fork, pull request
-* 이런내용
+### Week2-3 Github, fork, pull request [(강의자료)]()
+
+##### 이런내용
   > 그런데 이런거
 * 저런내용
   > 그런데 저런거
