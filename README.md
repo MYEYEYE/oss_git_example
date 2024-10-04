@@ -138,13 +138,86 @@
 -------------
 ### Week2-3 Github, fork, pull request
 ### **1. GITHUB**
+> [깃허브 링크](https://github.com/)
+
 > Git-based Source Code Hosting for Social Coding
 
-### **2. Fork**
- * 
-[My Github Blog](https://github.com/kkanuseobin)
+### **2. Fork** [(참고자료)](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project.html#_forking_projects)
+![image](https://github.com/user-attachments/assets/7f3f7d87-3c6f-41d8-96db-6f6470676074)
+
+
+ > If you want to contribute to an existing project to which you don’t have push access, you can “fork” the project
+
+ > the same project in your own namespace, allowing you to make changes
+   to a project publicly as a way to contribute in a more open manner
+
+### **3. Pull Request**
+* 다른프로젝트에 내가 만든 commit을 제출한다는 의미
+   * 실제 전송단위는 branch
+* fork한 github 프로젝트를 토대로 새로운 commit 내용들을 제출 가능
+
+
+[My Github Blog](https://github.com/MYEYEYE)
 
 -------------
-### Week3     Markdown
-* 이런내용
-* 저런내용
+### Week2-4 Git: Advanced topics
+### **1. merge로 2개 브랜치 합치기**
+ * git checkout 현재브랜치명
+ * git merge 합칠 브랜치명
+
+### **2. rebase**
+> 한 브랜치에서 변경된 사항을 다른 브랜치에 적용 가능
+
+### **3. 중간에 낀 commmit 수정하기**
+  * git rebase -i --root
+  * git commit --ammend -sm "커밋 메시지"
+  * git rebase --continue
+
+### **4. blame으로 추적하기**
+  * git blame 파일명
+  * git show 커밋아이디
+
+-------------
+### Week3: Markdown [(실습링크)]()
+### **1. 이탤릭체와 볼드체**
+* 이탤릭체: 문장 처음과 끝에 '_' 붙여서 사용
+   * ex) _a_ , _b_
+* 볼드체: 문장 처음과 끝에 '**' 붙여서 사용
+   * ex) **a**, **b**
+* 둘이 동시 적용도 가능
+   * ex) **_a_**, **_b_**
+
+### **2. 헤더**
+* 문장의 앞에 ‘#’ 붙여서 사용
+* #을 1개부터 6개까지 추가해 사용 가능
+   * 많이 추가할수록 글씨의 크기 감소
+* 제목, 부제를 나타낼 때 사용
+
+### **3. 링크**
+* 인라인 링크
+   "[텍스트] (링크주소)" 
+* 참조 링크
+   * "[태그][참조]"
+   * "[참조]: 링크"
+
+### **4. 이미지**
+* 맨 앞에 ! 붙여줘야함 (나머지는 링크와 동일)
+
+### **5. 인용문**
+* 문장 앞에 > 추가해 사용
+   * ex) > 인용
+
+### **6. 리스트**
+* 순서가 있는 리스트
+   * 순서대로 1. 2. 3. ... 붙여서 사용
+* 순서가 없는 리스트
+   * *붙여서 사용
+   * 공백 개수로 세부단계 구분
+
+### **7. 단락 나눔**
+* 개행 나눔
+   * 개행으로 단락 구분
+* 줄 나눔
+   * 문장의 끝에서 스페이스 2번 눌러 구분
+  
+
