@@ -142,7 +142,7 @@
 
 > Git-based Source Code Hosting for Social Coding
 
-### **2. Fork** [(참고자료)](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project.html#_forking_projects)
+### **2. Fork** [(참고한 자료)](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project.html#_forking_projects)
 ![image](https://github.com/user-attachments/assets/7f3f7d87-3c6f-41d8-96db-6f6470676074)
 
 
