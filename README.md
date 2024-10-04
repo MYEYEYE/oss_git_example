@@ -136,13 +136,12 @@
 ![image](https://github.com/user-attachments/assets/cadd69f3-3cb2-4dbf-a0c6-a5bb0b33b9a6)
 
 -------------
-### Week2-3 Github, fork, pull request [(강의자료)]()
+### Week2-3 Github, fork, pull request
+### **1. GITHUB**
+> Git-based Source Code Hosting for Social Coding
 
-##### 이런내용
-  > 그런데 이런거
-* 저런내용
-  > 그런데 저런거
-
+### **2. Fork**
+ * 
 [My Github Blog](https://github.com/kkanuseobin)
 
 -------------
